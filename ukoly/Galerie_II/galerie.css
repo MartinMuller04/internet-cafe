@@ -1,0 +1,21 @@
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.text-place {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: black;
+    opacity: 0.7;
+    width: 500px;
+    height: 105px;
+}
+
+.text-place:hover {
+    background: black;
+    opacity: 1;
+}
